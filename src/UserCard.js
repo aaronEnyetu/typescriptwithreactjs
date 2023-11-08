@@ -6,7 +6,7 @@ const UserCard = (props) => {
       <div className='ui card'>
           <div className='content'>
               <div className='header'>
-                  Amin Tancredi
+                  {props.children.props.name}
               </div>
               <div className='description'>
                  {props.children}
